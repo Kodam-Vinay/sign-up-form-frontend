@@ -1,0 +1,30 @@
+.error-page-container > h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-page-container > h1 > span {
+  margin: 5px;
+}
+
+.error-page-container > button {
+  height: 38px;
+  width: 100px;
+  border: 0;
+  background-color: #3a244a;
+  font-weight: bold;
+  color: #d72638;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error-page-container > button:hover {
+  color: #3a244a;
+  background-color: #d72638;
+}
+
+@media screen and (min-width: 568px) {
+  .error-page-container > h1 {
+    flex-direction: row;
+  }
+}

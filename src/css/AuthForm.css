@@ -1,0 +1,136 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 4% 10px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 5px;
+  box-shadow: 1px 1px 1px #ebe9ee;
+}
+
+.heading-and-sign-in-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 17px;
+}
+
+.border-color {
+  border: 1px solid #ebe9ee;
+}
+
+.sign-in-text-button {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.sign-in-text-button > span {
+  margin-right: 3px;
+}
+
+.input-field-element {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ebe9ee;
+  outline: none;
+  padding: 5px 10px 5px;
+  margin-top: 10px;
+}
+
+.sign-in-text > span {
+  margin-left: 2px;
+}
+
+.transparent-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.show-hide-password-image {
+  height: 20px;
+}
+
+.input-password-field-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ebe9ee;
+}
+
+.select-input-field > option[value="disable"] {
+  background: white;
+}
+
+.sign-form-button {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sign_up_login_button {
+  background-color: #3a244a;
+  color: white;
+  font-size: 16px;
+}
+
+.sign_up_login_button:hover {
+  background-color: #7d4ba0;
+}
+
+.login_sign_up_button {
+  border: 2px solid #3a244a;
+  background: transparent;
+  color: #3a244a;
+  font-weight: bold;
+}
+
+.login_sign_up_button:hover {
+  border: 2px solid #7d4ba0;
+  background: transparent;
+  color: #8b54b2;
+  font-weight: bold;
+}
+
+.error-message {
+  color: #d72638;
+}
+
+@media screen and (min-width: 400px) {
+  .form-container {
+    max-height: 80%;
+    max-width: 80%;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .sign-in-text-button {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .form-container {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form-container {
+    max-width: 30%;
+  }
+}
